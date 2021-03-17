@@ -177,7 +177,7 @@ p.imgDes{
     background-color: black;
     color: #ffffff;
     transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
-    
+    border: 2px solid #ffffff;
 } 
 
 
@@ -227,6 +227,8 @@ p.imgDes{
     line-height: 25px;
     text-align: center;
     letter-spacing: 2px;
+    color: #333333;
+    font-weight: 550;
 }
 
 .section4 p.section4Dis{
@@ -298,5 +300,168 @@ p.imgDes{
 .carImg{
     position: relative;
     
+      
+}
+
+.section6 {
+
+    background-image: url(wagon2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
     
+}
+
+.section6 p{
+    
+    padding-left: 80px;
+    color: #ffffff;
+    
+
+}
+
+.section6Head {
+    
+    padding-top: 200px;
+    align-self: center;
+    font-family: proxima-nova,sans-serif;
+    color: #fff;
+    font-size: 30px;
+    line-height: 30px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 1.4px;
+    
+}
+
+
+.section6Head2 {
+    padding-top: 20px;
+    align-self: center;
+    font-family: proxima-nova,sans-serif;
+    color: #fff;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.section6Dis {
+    padding-top: 40px;
+    align-self: end;
+    font-family: proxima-nova,sans-serif;
+    color: #fff;
+    font-size: 15px;
+    line-height: 20px;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.section6button {
+    position: relative;
+    margin-left: 80px;
+    margin-top: 12px;
+    width: 20%;
+    height: 40px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    background-color: #fff;
+    text-transform: uppercase;
+}
+
+.section6button:hover{
+    background-color: black;
+    color: #ffffff;
+    transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+    border: 2px solid #ffffff;
+}
+
+
+footer {
+    height: 450px;
+}
+.section7 {
+    display: flex;
+    height: 150px;
+    padding-top: 50px;
+    margin-top: 155px;
+    margin-bottom: 150px;
+    
+
+} 
+
+.section7Head {
+    font-family: proxima-nova,sans-serif;
+    font-size: 37px;
+    padding-left: 80px;
+    width: 40%;
+    line-height: 50px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 2px;
+
+}
+form{
+    
+    display: inline-block;
+    width: 55%;
+    padding-left: 150px;
+}
+
+.form1 {
+    display: flex;
+    padding: 10px;
+}
+
+.formName {
+    margin-top: 8px;
+    align-items: center;
+    font-family: proxima-nova,sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #333;
+
+}
+
+input {
+    border: 2px solid #000;
+    border-radius: 10px;
+    height: 35px;
+    align-items: center;
+}
+
+.inputfield1 {
+    box-sizing: border-box;
+    width: 300%;
+    
+    
+   margin-right: 30px ;
+    
+ 
+}
+
+.inputfield2{
+    box-sizing: border-box;
+    width: 200%;
+
+    padding-right: 0px;
+}
+
+.lastFoot {
+    text-align: center;
+    color: #ffffff;
+    background-color: #000;
+    padding-top: 8px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.lastFoot p {
+    cursor: pointer;
+    height: 72px;
 }
