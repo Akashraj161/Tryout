@@ -4,6 +4,7 @@
     box-sizing: border-box;
     width: 100%;
     font-family: Verdana, Tahoma,  Arial, Helvetica, sans-serif;
+    
 }
 
 header{
@@ -277,6 +278,7 @@ p.imgDes{
 }
 
 .section5.box img{
+
     
     vertical-align: middle;
     display:inline-block;
@@ -299,9 +301,17 @@ p.imgDes{
 
 .carImg{
     position: relative;
-    
+
       
 }
+
+.carAni {
+
+    position:absolute;
+    
+    background-image: url(carImage.png); 
+    background-repeat: no-repeat;
+} 
 
 .section6 {
 
@@ -451,6 +461,33 @@ input {
 
     padding-right: 0px;
 }
+
+#submit-button {
+    cursor: pointer;
+}
+
+.socialMedia {
+    position:fixed;
+    width: 45px;
+    height: 180px;
+    left: 0;
+    bottom: 200px;
+    border: 2px solid #000;
+    background-color: #ffffff;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.socialMedia i {
+
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+
+
 
 .lastFoot {
     text-align: center;
